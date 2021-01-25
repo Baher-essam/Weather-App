@@ -6,11 +6,26 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="description" content="konw your weather condition via your location">
     <meta name="keywords" content="weather-app, weather, baher-essam, Baher Essam, baher-essam.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Weather app</title>
 </head>
 <body>
+    <div class="container ">
+        <div class="weather-notification"></div>
+        <div class="icon"></div>
+        <div class="location">
+            <h1 class="location-timezone">Timezone</h1>
+            <span class="location-country"></span>
+        </div> 
+        <h1 class="current-degree">--</h1>
+        <p class="almost-degree">--</p>
+        <p class="weather-description"></p>
+        <div id="temp"></div>
+    </div>
     
+    <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
