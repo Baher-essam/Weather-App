@@ -23,3 +23,14 @@ img{
 .location h1 {display: inline;}
 .almost-degree{font-size: 14px;}
 .almost-degree span  {font-size: 10px;}
+.weather-notification{
+    color: #ee3a3a;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    font-size: 14px;
+}
